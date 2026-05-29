@@ -1,0 +1,12 @@
+allowBuilds:
+  sharp: true
+  unrs-resolver: true
+configDependencies:
+  '@pnpm/plugin-types-fixer': 0.1.0
+ignoredBuiltDependencies:
+  - sharp
+  - unrs-resolver
+packageExtensions:
+  antd:
+    peerDependencies:
+      '@types/react': '*'
